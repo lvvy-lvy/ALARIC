@@ -1,0 +1,69 @@
+{
+  "type": "script",
+  "enabled": false,
+  "name": "ALARIC NSFW ENGINE + MVU 控制台 (TypeScript重构版)",
+  "id": "alaric-nsfw-mvu-engine-typescript",
+  "content": "import 'https://your-server.com/path/to/ALARIC-NSFW-MVU-融合脚本-重构版本/index.js'",
+  "info": "# ALARIC NSFW ENGINE + MVU 控制台 (TypeScript重构版)\n\n- **作者:** Tavern Helper Template\n- **版本:** 2.0.0\n- **构建时间:** 2025年1月19日\n- **TypeScript版本:** 5.3+\n- **目标环境:** SillyTavern 无沙盒iframe\n\n## 功能特性\n\n### 🎮 NSFW引擎\n- 智能SOP选择系统\n- 动态内容生成\n- 安全边界管理\n- 阶段化调教逻辑\n\n### 📊 MVU数据集成\n- 完整的角色档案管理\n- 世界记录同步\n- XP雷达系统\n- 安全词管理\n\n### 🔧 技术优势\n- TypeScript重构，类型安全\n- 模块化架构，易维护\n- 兼容酒馆助手最佳实践\n- 自动数据验证和修复\n\n## 使用说明\n\n1. **导入脚本**: 将此配置文件导入酒馆助手\n2. **修改路径**: 将content中的`PATH_TO_YOUR_DIST_FOLDER`替换为实际的dist文件夹路径\n3. **启用脚本**: 在酒馆助手中启用此脚本\n4. **配置MVU**: 确保MVU插件已启用\n\n## 按钮说明\n\n- 🎲 摇点主菜: 随机选择SOP玩法\n- ➕ 加点佐料: 添加额外调味内容\n- ❌ 结束玩法: 清理当前玩法\n- 👁️ 查看注入: 显示当前注入的内容\n- ⚙️ 编辑安全协议: 配置XP雷达和安全词\n- 🆔 编辑身份: 修改角色档案\n- 📊 状态检查: 查看当前状态\n- 🎯 今日重点: 设置今日任务\n- 🔄 NSFW开关: 全局NSFW控制\n\n## 数据结构\n\n脚本会自动读取和写入以下MVU数据：\n- `角色档案.{用户名}.玩家偏好.XP雷达`\n- `角色档案.{用户名}.造物逻辑.定制课程.今日重点`\n- `世界记录.全局设置.NSFW总开关`\n- `世界记录.当前场景.环境氛围`\n\n## 注意事项\n\n- 首次使用时会自动创建必要的数据结构\n- 支持酒馆助手的变量系统进行数据持久化\n- 生产环境已关闭调试日志以提升性能\n- 兼容现有的MVU数据格式\n\n## 故障排除\n\n1. **无法读取MVU数据**: 确保MVU插件已启用\n2. **脚本无法加载**: 检查文件路径是否正确\n3. **按钮无响应**: 确认脚本已正确初始化\n4. **数据不保存**: 检查酒馆助手变量系统权限\n\n## 版本历史\n\n- **v2.0.0** (2025-01-19): TypeScript重构，移除Zod验证，优化构建输出\n- **v1.0.0** (2025-01-18): 初始版本，JS实现\n\n---\n\n**构建时间**: 2025年1月19日 (最后更新)\n**兼容性**: SillyTavern + MVU插件 + 酒馆助手",
+  "button": {
+    "enabled": true,
+    "buttons": [
+      {
+        "name": "🎲 摇点主菜",
+        "visible": true,
+        "label": "🎲 摇点主菜"
+      },
+      {
+        "name": "➕ 加点佐料",
+        "visible": false,
+        "label": "➕ 加点佐料"
+      },
+      {
+        "name": "❌ 结束玩法",
+        "visible": false,
+        "label": "❌ 结束玩法"
+      },
+      {
+        "name": "👁️ 查看注入",
+        "visible": true,
+        "label": "👁️ 查看注入"
+      },
+      {
+        "name": "⚙️ 编辑安全协议",
+        "visible": true,
+        "label": "⚙️ 编辑安全协议"
+      },
+      {
+        "name": "🆔 编辑身份",
+        "visible": true,
+        "label": "🆔 编辑身份"
+      },
+      {
+        "name": "📊 状态检查",
+        "visible": true,
+        "label": "📊 状态检查"
+      },
+      {
+        "name": "🎯 今日重点",
+        "visible": true,
+        "label": "🎯 今日重点"
+      },
+      {
+        "name": "🔄 NSFW开关",
+        "visible": true,
+        "label": "🔄 NSFW开关"
+      }
+    ]
+  },
+  "data": {
+    "version": "2.0.0",
+    "buildDate": "2025-01-19",
+    "author": "Tavern Helper Template",
+    "features": [
+      "NSFW引擎",
+      "MVU数据集成",
+      "TypeScript重构",
+      "模块化架构"
+    ]
+  }
+}
