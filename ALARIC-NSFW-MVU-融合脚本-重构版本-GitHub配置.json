@@ -1,0 +1,65 @@
+{
+  "type": "script",
+  "enabled": false,
+  "name": "ALARIC NSFW ENGINE + MVU 控制台 (GitHub Pages)",
+  "id": "alaric-nsfw-mvu-engine-github",
+  "content": "import 'https://lvvy-lvy.github.io/ALARIC/dist/src/ALARIC-NSFW-MVU-融合脚本-重构版本/index.js'",
+  "info": "# ALARIC NSFW ENGINE + MVU 控制台 (GitHub Pages版本)\n\n## 🚀 快速导入\n\n直接导入此配置文件即可使用，无需额外设置！\n\n## 📦 部署信息\n\n- **托管**: GitHub Pages\n- **仓库**: https://github.com/lvvy-lvy/ALARIC\n- **URL**: https://lvvy-lvy.github.io/ALARIC/\n\n## ⚠️ 注意事项\n\n- 确保GitHub Pages已启用\n- 脚本会自动从GitHub加载\n- 如有更新请刷新缓存\n\n---\n\n**通过GitHub Pages直接使用，无需本地部署**",
+  "button": {
+    "enabled": true,
+    "buttons": [
+      {
+        "name": "🎲 摇点主菜",
+        "visible": true,
+        "label": "🎲 摇点主菜"
+      },
+      {
+        "name": "➕ 加点佐料",
+        "visible": false,
+        "label": "➕ 加点佐料"
+      },
+      {
+        "name": "❌ 结束玩法",
+        "visible": false,
+        "label": "❌ 结束玩法"
+      },
+      {
+        "name": "👁️ 查看注入",
+        "visible": true,
+        "label": "👁️ 查看注入"
+      },
+      {
+        "name": "⚙️ 编辑安全协议",
+        "visible": true,
+        "label": "⚙️ 编辑安全协议"
+      },
+      {
+        "name": "🆔 编辑身份",
+        "visible": true,
+        "label": "🆔 编辑身份"
+      },
+      {
+        "name": "📊 状态检查",
+        "visible": true,
+        "label": "📊 状态检查"
+      },
+      {
+        "name": "🎯 今日重点",
+        "visible": true,
+        "label": "🎯 今日重点"
+      },
+      {
+        "name": "🔄 NSFW开关",
+        "visible": true,
+        "label": "🔄 NSFW开关"
+      }
+    ]
+  },
+  "data": {
+    "version": "2.0.0",
+    "buildDate": "2025-01-19",
+    "author": "lvvy-lvy",
+    "repository": "https://github.com/lvvy-lvy/ALARIC",
+    "deployment": "github-pages"
+  }
+}
