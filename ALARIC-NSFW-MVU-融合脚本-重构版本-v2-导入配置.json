@@ -1,0 +1,113 @@
+{
+  "type": "script",
+  "enabled": false,
+  "name": "ALARIC NSFW ENGINE + MVU 控制台 (TypeScript重构版)",
+  "id": "alaric-nsfw-mvu-engine-ts",
+  "content": "import 'https://raw.githubusercontent.com/lvvy-lvy/ALARIC/main/dist/src/ALARIC-NSFW-MVU-融合脚本-重构版本-v2/index.js'",
+  "info": "# ALARIC NSFW ENGINE + MVU 控制台 (TypeScript重构版)\n\n## 🚀 快速导入\n\n直接导入此配置文件即可使用，无需额外设置！\n\n## ⚡ 技术特性\n\n- **TypeScript重构**: 完整的类型安全\n- **Zod数据验证**: 强大的数据校验\n- **jQuery集成**: 最佳实践的DOM操作\n- **Tavern Helper优先**: 使用推荐API\n\n## 📦 部署信息\n\n- **构建**: `pnpm build`\n- **产物**: `dist/src/ALARIC-NSFW-MVU-融合脚本-重构版本-v2/index.js`\n- **配置**: 替换content中的URL为实际的raw.githubusercontent.com链接\n\n## 🎮 功能菜单\n\n### 主控制台\n- 🎮 MVU 主控台\n- 🎲 玩法 | 👤 身份 | 🔄 强刷 | ❌ 关闭\n\n### 玩法菜单\n- 🔞 NSFW | 📅 今日重点 | 🎲 摇点主菜\n- 🍅 加点佐料 | 🏁 结束玩法 | 👁️ 查看注入\n\n### 身份菜单\n- 📊 状态 | 🛡️ 安全协议 | 🆔 身份\n- 🔀 阶段 | ❤️ XP\n\n---\n\n**基于最佳实践重构的TypeScript版本**",
+  "button": {
+    "enabled": true,
+    "buttons": [
+      {
+        "name": "🎮 MVU 主控台",
+        "visible": true,
+        "label": "🎮 MVU 主控台"
+      },
+      {
+        "name": "🎲 玩法",
+        "visible": false,
+        "label": "🎲 玩法"
+      },
+      {
+        "name": "👤 身份",
+        "visible": false,
+        "label": "👤 身份"
+      },
+      {
+        "name": "🔄 强刷",
+        "visible": false,
+        "label": "🔄 强刷页面"
+      },
+      {
+        "name": "❌ 关闭",
+        "visible": false,
+        "label": "❌ 关闭控制台"
+      },
+      {
+        "name": "🔞 NSFW",
+        "visible": false,
+        "label": "🔞 NSFW"
+      },
+      {
+        "name": "📅 今日重点",
+        "visible": false,
+        "label": "📅 今日重点"
+      },
+      {
+        "name": "🎲 摇点主菜",
+        "visible": false,
+        "label": "🎲 摇点主菜"
+      },
+      {
+        "name": "🍅 加点佐料",
+        "visible": false,
+        "label": "🍅 加点佐料"
+      },
+      {
+        "name": "🏁 结束玩法",
+        "visible": false,
+        "label": "🏁 结束玩法"
+      },
+      {
+        "name": "👁️ 查看注入",
+        "visible": false,
+        "label": "👁️ 查看注入"
+      },
+      {
+        "name": "📊 状态",
+        "visible": false,
+        "label": "📊 状态"
+      },
+      {
+        "name": "🛡️ 安全协议",
+        "visible": false,
+        "label": "🛡️ 安全协议"
+      },
+      {
+        "name": "🆔 身份",
+        "visible": false,
+        "label": "🆔 身份"
+      },
+      {
+        "name": "🔀 阶段",
+        "visible": false,
+        "label": "🔀 阶段"
+      },
+      {
+        "name": "❤️ XP",
+        "visible": false,
+        "label": "❤️ XP"
+      },
+      {
+        "name": "🔙 返回",
+        "visible": false,
+        "label": "🔙 返回主菜单"
+      }
+    ]
+  },
+  "data": {
+    "version": "2.0.0",
+    "buildDate": "2025-01-19",
+    "author": "AI Assistant (TypeScript重构)",
+    "description": "基于TypeScript重构的ALRIC NSFW引擎，使用最佳实践",
+    "features": [
+      "typescript-rewrite",
+      "zod-validation",
+      "jquery-integration",
+      "tavern-helper-priority",
+      "type-safety",
+      "modular-architecture"
+    ],
+    "deployment": "raw-githubusercontent"
+  }
+}
